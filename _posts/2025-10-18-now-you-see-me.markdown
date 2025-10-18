@@ -1,10 +1,11 @@
 ---
-title: "Now You See Me: 抽象钱包是如何隐藏真实操作的"
+title: "Now You See Me: 抽象钱包是如何隐藏真实链上操作的"
 date: 2025-10-18
 tags: ["CryptoCurrency", "Ethereum", "EVM", "Smart Contracts", "Solidity", "Blockchain", "Security", "EIP-4337", "Account Abstraction"]
 layout: post
 ---
 
+首先声明，这里有些标题党，并不是完全隐藏，而是加大了溯源难度。在文章后半段，我会给出可操作的溯源方法。
 你有没有遇到过这样的情况：在一些扫链工具里，没看到巨鲸大额砸盘，但自己买的土狗代币价格却已经直线下跌。从链上看，也没发现哪个地址进行了大额卖出。
 本文用一个例子解释AA 钱包会让授权/发起者/资金流彼此分离，从而让部分传统扫链规则失效，并给出可操作的溯源方法。
 
