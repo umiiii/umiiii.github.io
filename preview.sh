@@ -1,3 +1,3 @@
 #!/usr/bin/env bash 
 
-jekyll serve --watch
+bundle exec jekyll serve --watch

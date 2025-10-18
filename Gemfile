@@ -28,3 +28,8 @@ end
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 gem "jekyll-whiteglass"
+
+# Required for Ruby 3.4.0+ compatibility
+gem "csv"
+gem "logger"
+gem "base64"
