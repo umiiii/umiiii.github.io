@@ -237,3 +237,10 @@ span.hash-note::before { content: "　# "; }
 
 // Import partials from the `whiteglass` theme.
 @import "whiteglass";
+
+// Override post list styles: compact list, no dividers
+.post-list > li {
+  margin-bottom: 0.4em !important;
+  padding-top: 0 !important;
+  border-top: none !important;
+}
