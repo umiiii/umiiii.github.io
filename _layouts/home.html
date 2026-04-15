@@ -14,11 +14,8 @@ layout: default
       {% capture lang %}{% if post_lang != site_lang %}{{ post_lang }}{% endif %}{% endcapture %}
 
       <li{% if lang != empty %} lang="{{ lang }}"{% endif %}>
-        <span class="post-meta">
+        <span class="post-meta" style="display: inline-block; width: 7em; margin-right: 1em;">
           {% include date.html date=post.date lang=lang %}
-          {% if post.categories != empty or post.tags != empty %}
-            {% include category_links.html categories=post.categories tags=post.tags %}
-          {% endif %}
         </span>
 
         {% if post.external-url %}
