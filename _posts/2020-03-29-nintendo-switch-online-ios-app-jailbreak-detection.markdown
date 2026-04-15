@@ -1,7 +1,7 @@
 ---
 title: "iOS Nintendo Switch Online app 闪退的解决方法"
 date: 2020-03-29T17:49:59+08:00
-draft: false
+
 tags: ["iPhone","jailbreak","nintendo"]
 layout: post
 ---

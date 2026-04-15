@@ -1,7 +1,7 @@
 ---
 title: "iOS 越狱史及技术简析 - iOS 2"
 date: 2019-12-16T04:15:59+08:00
-draft: false
+
 tags: ["iPhone","jailbreak"]
 layout: post
 ---

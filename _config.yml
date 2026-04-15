@@ -1,47 +1,37 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
 title: 奇思妙想
+author: umi
 email: 9@umi.cat
-lang: cn
-description: >- # this means to ignore newlines until "baseurl:"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://umi.cat" # the base hostname & protocol for your site, e.g. http://example.com
-google_analytics: UA-123910606-1
+lang: zh-CN
+description: "umi 的个人博客，记录关于加密货币、安全研究、iOS 越狱等方面的技术探索与思考。"
+url: "https://umi.cat"
+baseurl: ""
+google_analytics: G-9QG9K8G8G3
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
-url: umiiii.github.io
-baseurl: /
 remote_theme: yous/whiteglass
-# Build settings
-include:
-  - _includes/ads.txt
-  - _includes/privacy.html
-  - _layouts/bq_3.html
-  - _layouts/bq.html
 
+# Build settings
 plugins:
   - jekyll-archives
+  - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
+
+comments: true
+
+giscus:
+  repo: "umiiii/umiiii.github.io"
+  repo_id: "MDEwOlJlcG9zaXRvcnkyMDE0MzQyMTc="
+  category: "Announcements"
+  category_id: "DIC_kwDODAGkac4C632H"
+  mapping: "pathname"
+  reactions_enabled: "1"
+  emit_metadata: "1"
+  input_position: "bottom"
+  theme: "light"
+  lang: "zh-CN"
 
 permalink: /:year/:month/:day/:title/
 paginate_path: /posts/:num/

@@ -1,8 +1,7 @@
 ---
 title: "iOS 越狱插件开发"
 date: 2020-04-29T15:30:59+08:00
-draft: false
-tags: ["Network","Security"]
+tags: ["iOS","Security","Jailbreak"]
 layout: post
 ---
 

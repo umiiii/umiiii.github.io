@@ -1,6 +1,8 @@
 ---
 layout: post
-title: 博客集锦
+title: "博客集锦"
+date: 2019-01-01
+tags: ["Blog"]
 ---
 
 这里会记录一些个人觉得有价值的博客。

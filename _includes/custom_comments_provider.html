@@ -1,3 +1,22 @@
 <hr />
 <h1>{% include i18n.html lang=lang value="comments" default="Comments" %}</h1>
-<p>Insert your custom comment provider like <a href="https://disqus.com">Disqus</a> or <a href="https://posativ.org/isso">Isso</a> here.</p>
+{% if site.giscus.repo_id != "" %}
+<script src="https://giscus.app/client.js"
+        data-repo="{{ site.giscus.repo }}"
+        data-repo-id="{{ site.giscus.repo_id }}"
+        data-category="{{ site.giscus.category }}"
+        data-category-id="{{ site.giscus.category_id }}"
+        data-mapping="{{ site.giscus.mapping }}"
+        data-strict="0"
+        data-reactions-enabled="{{ site.giscus.reactions_enabled }}"
+        data-emit-metadata="{{ site.giscus.emit_metadata }}"
+        data-input-position="{{ site.giscus.input_position }}"
+        data-theme="{{ site.giscus.theme }}"
+        data-lang="{{ site.giscus.lang }}"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
+{% else %}
+<p>Comments are not configured yet.</p>
+{% endif %}

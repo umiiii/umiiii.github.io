@@ -1,7 +1,7 @@
 ---
 title: "「ありがとうございます」と「ありがとごさいました」"
 date: 2018-01-03T00:36:59+08:00
-draft: false
+
 tags: ["Japanese"]
 layout: post
 slug: "the nuance of thankyou in japanese"
