@@ -5,5 +5,7 @@ main:
     url: /about/
   - title: "Archives"
     url: /archives/
+  - title: "Tags"
+    url: /tags/
   - title: "Privacy"
     url: /privacy.html
